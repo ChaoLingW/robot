@@ -1,11 +1,11 @@
-/**
+﻿/**
 * @author chaoling  
 * @date 2018年6月14日
  */
  该应用程序是本人为完成软件设计实战的课程设计而独立完成的
  此应用程序实现 开桌面应用程序  搜索 睡眠/关机 截屏 查询本机IP 翻译 聊天机器人
  该源代码开源 但是仅供学习 不可它用
- 
+ 使用请添加自己的ApiKey
  The application was completed independently by myself in order to complete the actual course design of software design.            
  This application enables open desktop applications to search for sleep / shutdown screenshots and query the native IP translation chat robot.            
  The source code is open source but only for learning. 
