@@ -1,4 +1,4 @@
-package com.realization;
+﻿package com.realization;
 
 import com.api.TransApi;
 
@@ -14,8 +14,8 @@ import net.sf.json.JSONObject;
 public class BaiduTranslate {  
 	  
 //    / 在平台申请的APP_ID 详见 http://api.fanyi.baidu.com/api/trans/product/desktop?req=developer  
-    private static final String APP_ID = "20180613000176000";  
-    private static final String SECURITY_KEY = "OYr5VDg6L6bxMtxufiO3";  
+    private static final String APP_ID = "";  
+    private static final String SECURITY_KEY = "";  
     private String toTranslated; 
     private String alreadyTranslated;
     
