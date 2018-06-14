@@ -1,4 +1,4 @@
-package com.api;
+﻿package com.api;
 
 
 import java.io.BufferedReader;
@@ -22,9 +22,9 @@ import net.sf.json.JSONObject;
  */
 public class Turing {
     //存储APIkey
-    public static final String API_KEY = "879f93cc579643babc45f8e1d78d7516";
+    public static final String API_KEY = "";
     //存储接口请求地址
-    public static final String API_URL = "http://www.tuling123.com/openapi/api";
+    public static final String API_URL = "";
 
     /**
      * 拼接接口请求地址
