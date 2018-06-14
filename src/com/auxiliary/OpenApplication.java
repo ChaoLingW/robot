@@ -1,4 +1,4 @@
-package com.auxiliary;
+﻿package com.auxiliary;
 
 import java.awt.Desktop;
 import java.io.IOException;
@@ -60,7 +60,7 @@ public class OpenApplication {
 							if(index == -1) {
 								index = s.indexOf("邮箱");
 								if(index == -1) {
-									index = s.toLowerCase().indexOf("cmd");
+									index = s.toLowerCase().indexOf("绘图板");
 									if(index == -1) {
 										index = s.indexOf("资源管理器");
 										if(index == -1) {
@@ -71,8 +71,8 @@ public class OpenApplication {
 											setStr("已经打开了，厉害吧！");
 										}
 									}else {
-										//打开CMD   C:\Windows\System32
-										run.exec("C:\\Windows\\System32\\CMD.exe");
+										//打开绘图板
+										run.exec("mspaint");
 										setStr("已经打开了，厉害吧！");
 									}
 								}else {
